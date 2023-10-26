@@ -21,17 +21,19 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
             confetti({
-                particleCount: 7,
+                particleCount: 100,
                 angle: 120,
-                spread: 55,
-                origin: { x: 1 }
+                spread: 200,
+                origin: { x: 1 },
+                zIndex: 0
             });
 
             confetti({
-                particleCount: 7,
+                particleCount: 100,
                 angle: 50,
-                spread: 55,
-                origin: { x: 0 }
+                spread: 200,
+                origin: { x: 0 },
+                zIndex: 0
             });
 
             return;
