@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.0/dist/confetti.browser.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When will the Open Beta Launch?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            background-color: #282c34;
+            color: white;
+        }
+
+        #countdown {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="countdown-container">
+        <img src="nama.webp" alt="Nama Image" id="nama-image" width="30%">
+        <div id="countdown">Loading...</div>
+        <div id="timezone">Loading...</div>
+    </div>
+    <footer>
+        <p>The projected date provided herein is a purely speculative estimation based on previous Beta releases and is
+            not officially endorsed by, nor affiliated with, Embark Studios or Nexon.
+            "The Finals" is a registered trademark of Embark Studios/Nexon. All rights and ownership of the trademark,
+            as well as any associated imagery including "Namatama", remain with Embark Studios/Nexon. This website is an
+            independent project and claims no association or representation of the aforementioned companies or their
+            intellectual property.
+            For official information and announcements related to "The Finals", please refer to the official channels of
+            Embark Studios or Nexon. Also, Momo is unequivocally the finest Duck in Discord.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background-color: #282c34;
+        color: white;
+    }
+
+    .countdown-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #countdown {
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #countdown span {
+        display: inline-block;
+        padding: 0 1px;
+        transition: transform 0.1s, opacity 1s;
+    }
+
+    #countdown span.changed {
+        opacity: 0;
+    }
+
+    #timezone {
+        font-size: 0.7em;
+    }
+
+    #nama-image {
+        max-width: 80%;
+        margin-bottom: 20px;
+        z-index: 1;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 10px;
+        font-size: 0.4em;
+        text-align: center;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+</style>
