@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     targetUTCDate.setUTCFullYear(2023);
     targetUTCDate.setUTCMonth(9);
     targetUTCDate.setUTCDate(26);
-    targetUTCDate.setUTCHours(10, 0, 0, 0);
+    targetUTCDate.setUTCHours(9, 0, 0, 0);
 
     const targetLocalDate = new Date(targetUTCDate.getTime());
 
